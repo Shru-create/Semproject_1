@@ -1,0 +1,135 @@
+
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003366;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #FF9933;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: left;
+  animation: fadeUp 0.8s ease;
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+button {
+  background-color: #FF9933;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc7a29;
+  transform: scale(1.05);
+}
+
+/* Inputs */
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #F0F0F0;
+  font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border: 1px solid #003366;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Table (Admin Dashboard) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #003366;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
+table tr:hover {
+  background-color: #d6e4f0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+  .card {
+    width: 95%;
+  }
+}

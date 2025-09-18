@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h2>Admin Dashboard</h2>
+    <a href="/logout">Logout</a>
+  </div>
+
+  <div class="container">
+    <h3>All Complaints</h3>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+      {% for c in complaints %}
+      <tr>
+        <td>{{ c.complaint_id }}</td>
+        <td>{{ c.name }}</td>
+        <td>{{ c.email }}</td>
+        <td>{{ c.complaint_type }}</td>
+        <td>{{ c.description }}</td>
+        <td>{{ c.status }}</td>
+        <td>
+          <form method="POST" action="/update_status/{{ c.complaint_id }}">
+            <select name="status">
+              <option {% if c.status=='Pending' %}selected{% endif %}>Pending</option>
+              <option {% if c.status=='In Progress' %}selected{% endif %}>In Progress</option>
+              <option {% if c.status=='Resolved' %}selected{% endif %}>Resolved</option>
+            </select>
+            <button type="submit">Update</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <div class="card">
+      <h3>Add New Admin</h3>
+      <form method="POST" action="/add_admin">
+        <input type="text" name="name" placeholder="Admin Name" required>
+        <input type="email" name="email" placeholder="Admin Email" required>
+        <input type="password" name="password" placeholder="Admin Password" required>
+        <button type="submit">Create Admin</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
