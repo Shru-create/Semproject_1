@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Complaint</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Submit Complaint</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="admin.html">Admin Login</a>
+    <a href="submit.html">Submit Complaint</a>
+    <a href="track.html">Track Complaint</a>
+  </nav>
+
+  <div class="container">
+    <h2>Complaint Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="category">Complaint Category:</label>
+      <select id="category" name="category">
+        <option value="academic">Academic</option>
+        <option value="administrative">Administrative</option>
+        <option value="facility">Facility Services</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="description">Complaint Description:</label>
+      <textarea id="description" name="description" rows="5"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    
+  </div>
+</body>
+</html>
