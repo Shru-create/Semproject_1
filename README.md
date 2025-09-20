@@ -19,10 +19,10 @@ Version Control: Github for desktop & Github
 
 List of Project Group Members
 Roll No	PRN	Name	Phone Number	Sign
-73	241106076	Shruti Kishor Patil 	9420619018	
+73	241106076	Shruti Kishor Patil 	    9420619018	
 87	241106091	Pranali Ramkrushna Patil 	9518373156	
-89	241106093	Bhumika Shivaji Patil	8010337108	
-82	241106086	Girish Prakash Mahajan	9359793290	
+89	241106093	Bhumika Shivaji Patil	    8010337108	
+82	241106086	Girish Prakash Mahajan	    9359793290	
 				
 
 
@@ -31,13 +31,16 @@ Guide Name: Dr. P. S. Sanjekar ma'am
 Date                                 Work
 6 August 2025                        Semester project Start
 10 Aug 2025/ 14 Aug 2025             Project Topic Finalization
-25 Aug 2025/ 29 Aug 2025             Project Interaction With Guide(Abstract)
+25 Aug 2025/ 29 Aug 2025             Project Interaction with Guide(Abstract)
 3 September 2025                     Implementation Progress - 1
-                                     Front-end 1st page 
-                                     Admin login Dashboard page created using HTML
+                                     Front-end 1st/2nd page 						 
+                                     Admin login /Index page created using HTML
 10 September 2025                    Implementation progress - 2
-                                     Front-end 2nd Page
-14 September 2025                    Front-end work Completed
+                                     Front-end 3rd Page
+									 Submit page created using Style.CSS
+12 Septembar 2025                    Implementation progress - 3
+                                     Track page created using HTML
+14 September 2025                    Front-end work End
 
 
 
