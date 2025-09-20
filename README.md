@@ -26,7 +26,7 @@ Roll No	PRN	Name	Phone Number	Sign
 				
 
 
-Guide Name: Dr. P. S. Sanjekar ma'am 
+Guide Name: Dr. P. S. Sanjekar maam 
 
 Date                                 Work
 6 August 2025                        Semester project Start
