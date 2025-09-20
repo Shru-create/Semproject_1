@@ -1,5 +1,4 @@
 # Semproject_1
-Title -  Digital Complaint Box
 AY 2025-26
 SY BTech Semester Project-I				               
 Project Title: Digital Complaint Box 
