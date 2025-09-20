@@ -1,7 +1,7 @@
 # Semproject_1
 Title -  Digital Complaint Box
 AY 2025-26
-SY BTech Semester Project-I				              Date: 
+SY BTech Semester Project-I				               
 Project Title: Digital Complaint Box 
 Abstract: 
 The Digital Complaint Box System is a web-based platform that streamlines complaint management in institutions. It allows users to securely submit complaints with categorized details, and status tracking. Administrators access a secure dashboard to view, filter, and manage complaints With a structured database design ensuring secure storage, the system enhances transparency, accountability, and efficiency while reducing paperwork and maintaining permanent records for analysis.
